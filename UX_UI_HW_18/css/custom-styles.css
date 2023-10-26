@@ -1,0 +1,93 @@
+
+body {
+    padding-top: 54px;
+    background-color: #000000;
+  }
+  
+
+
+  header .welcome {
+    margin-top: 3em;
+    background-color: #000000;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+      color:#000000;
+    }
+    
+  }
+  
+
+.btn {
+  background-color: #48FF44;
+  border-color: #000000;
+}
+
+  .btn-primary {
+    color: #000000;
+  }
+
+  .btn:hover {
+    background-color: #000000;
+    border-color: #48FF44;
+  }
+
+  .btn-lg {
+    background-color: #48FF44;
+    color:#000000
+  }
+
+  .btn-lg:hover {
+    background-color: #000000;
+    color: white;
+  }
+  .card {
+    height: 100%;
+  }
+
+
+  p {
+    font-size: 14px;
+    color:white
+  }
+
+  h1 {
+    font-family: "Bruno Ace";
+    font-size: 40px;
+    color:#48FF44
+  
+  }
+  
+  h2 {
+    font-family: "Bruno Ace";
+    font-size: 30px;
+    color: #48FF44
+  }
+
+  h3 {
+    font-family: "Bruno Ace";
+    font-size: 30px;
+    color: #48FF44;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(19, 161, 0)
+  }
+
+  .flex-container > div {
+    background-color: #000000;
+    width: 300px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  }
+
+
+  /*!
+   * Copyright 2018 Trilogy Education
+   */
