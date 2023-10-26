@@ -1,0 +1,92 @@
+/* Override Bootstrap's default styles */
+
+/* Change the default font */
+@font-face {
+    font-family: 'BrunoAce';
+    src: url(fonts/BrunoAce-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'MPLUS1Code';
+    src: url(fonts/MPLUS1Code-Regular.ttf);
+}
+
+body {
+    font-family: 'BrunoAce','MPLUS1Code';
+    background-color: #000;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #000;
+    border-radius: 4%;
+    border-color: #66ff66;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #66ff66;
+}
+
+/* Add spacing between sections */
+.section {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #66ff66;
+    border-radius: 5px;
+}
+
+/* Style headings */
+h1 {
+    font-family: 'BrunoAce';
+    color: #66ff66;
+    
+}
+
+h2{
+    font-family: 'BrunoAce';
+    color:#66ff66
+}
+
+p{
+    font-family: 'MPLUS1Code';
+    color: #fff;
+}
+
+
+
+/* Style buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Custom link style */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add spacing between paragraphs */
+p {
+    margin-bottom: 15px;
+}
